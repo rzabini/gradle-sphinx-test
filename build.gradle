@@ -1,0 +1,14 @@
+buildscript{
+	repositories{
+		mavenLocal()
+		mavenCentral()
+	}
+	
+	dependencies{
+		classpath 'com.github.rzabini:gradle-sphinx:+'
+	}
+}
+
+
+
+apply plugin:'com.github.rzabini.sphinx'
